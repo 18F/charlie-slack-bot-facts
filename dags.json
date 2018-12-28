@@ -54,11 +54,31 @@
   ":ruby-dag: I like to growl at carved pumpkins. :jack_o_lantern: - Ruby",
   ":ruby-dag: Finding street food on the ground is one of my best talents. I found an _entire chicken thigh_ once. - Ruby",
   ":scully: Scully doesn't chew human things she's not supposed to. But she does pick up socks that are left on the floor and move them to other locations.",
-  ":winry-smile: Winry was afraid of going up or down stairs, so when Greg moved into a house that had them, she just slept in the living room by herself until she got over it.",
-  ":winry-smile: Winry ate a banana peel once when Greg wasn't looking. She was totally fine.",
-  ":winry-smile: Winry has heterochromia - one eye is solid blue but the other is half blue, half brown.",
-  ":winry-smile: Sometimes if you put one of Winry's back feet near her ear, it'll start scratching automatically. That gets on her nerves and she'll start biting her foot to make it stop.",
-  ":winry-smile: Winry likes to be pushed around the carpet. You push her away and she jumps up and comes running back to your hands.",
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I was afraid of going up or down stairs, so when Greg moved into a house that had them, I just slept in the living room by myself until I got over it."
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I ate a banana peel once when Greg wasn't looking. I was totally fine."
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I have heterochromia - one eye is solid blue but the other is half blue, half brown."
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "Sometimes if you put one of my back feet near my ear, it'll start scratching automatically. That gets on my nerves and I'll start biting my foot to make it stop."
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I like to be pushed around the carpet. You push me away and I jump up and comes running back to your hands."
+  },
   ":zoey: Zoey thinks she is the cat police at our house: if they are fighting (usually playfully) with each other, she runs up to them, sits in front of them and whines until they stop.",
   ":zoey: Zoey loves to take baths. When I say, \"time for a bath?!\" she will run to the bathtub and sit down."
 ]
