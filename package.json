@@ -1,0 +1,11 @@
+{
+  "name": "18f-bot-facts",
+  "version": "1.0.0",
+  "description": "Lists of facts used by 18F's Slack bot, Charlie",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "dependencies": {
+    "joi": "^14.3.1"
+  }
+}
