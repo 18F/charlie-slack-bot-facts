@@ -1,7 +1,7 @@
 # 18F-bot facts and responses
 
 This repo holds facts and autoresponses that feed into 18F's internal slack
-bot, [Charlie](/18F/18f-bot).
+bot, [Charlie](https://github.com/18F/18f-bot).
 
 ## How these lists work
 
