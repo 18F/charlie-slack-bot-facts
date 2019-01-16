@@ -40,14 +40,46 @@
   ":paloma: When Paloma meets someone new, she begs for a belly rub. If she knows you already, she also begs for a belly rub. It's her standard greeting (unless you're a delivery driver...).",
   ":pancho-dag: Pancho can read.",
   ":pancho-dag: Pancho is not color blind, he knows UPS brown.",
-  ":pixie: I am a rescue that was found injured on the side of the highway. Don't worry I'm all healed up and healthy now. - Pixie",
-  ":pixie: I like to give \"puppy hugs\", where I lean on you placing my paws around you. - Pixie :two_hearts:",
-  ":pixie: I love to chase and bark at wheels! - Pixie",
-  ":pixie: My middle name is sioux. - Pixie",
-  ":pixie: My favorite chew toy was \"my Tito\", a plush Titos vodka bottle gifted from my neighbor who works in the food/bev industry :joy:. Tito was retired in 2018, and my new favorite is \"Ricky\", an unstuffed floppy raccoon. - Pixie",
-  ":pixie: I love  to go on hikes in the wilderness and will hike all day. - Pixie",
-  ":pixie: I still see my foster mom regularly and stay with her when my owners go on extendted trips. - Pixie",
-  ":pixie: My owner is @scottweber - Pixie",
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text": "I am a rescue that was found injured on the side of the highway. Don't worry I'm all healed up and healthy now."
+  },
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text":   "I like to give \"puppy hugs\", where I lean on you placing my paws around you. :two_hearts:"
+  },
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text":   "I love to chase and bark at wheels!"
+  },
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text":   "My middle name is sioux."
+  },
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text":   "My favorite chew toy was \"my Tito\", a plush Titos vodka bottle gifted from my neighbor who works in the food/bev industry :joy:. Tito was retired in 2018, and my new favorite is \"Ricky\", an unstuffed floppy raccoon."
+  },
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text":   "I love to go on hikes in the wilderness and will hike all day."
+  },
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text":   "I still see my foster mom regularly and stay with her when my owners go on extendted trips."
+  },
+  {
+    "name": "Pixie",
+    "emoji": ":pixie:",
+    "text":   "My owner is @scottweber"
+  },
   ":ripley-dag: Ripley sleeps on her dog bed in our bedroom, but every morning, about a half hour before it's time for us to get up, she climbs into the human bed under the covers for some snugs",
   ":ripley-dag: One time Ripley ate some weird peach thing from the tree on the corner and barfed on the couch.",
   ":ripley-dag: Ripley is scared of even the smallest human toot, but happily delivers her own brutal farts with extreme nonchalance.",
