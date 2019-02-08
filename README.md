@@ -48,6 +48,8 @@ included in parentheses.
 
 ## Contributing
 
+See a [short video demonstrating how to update the facts](https://i.imgur.com/Ky6JDtE.gifv).
+
 Changes must be submitted as pull requests, as the `master` branch is protected
 from direct edits. Pull requests must pass their tests before they can be
 merged - the tests just validate that the lists are correctly structured, so
