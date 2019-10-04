@@ -12,20 +12,26 @@
   ":belle-belle: Once, when Belle was being boarded, she discovered that she could throw the tasty-food-stuffed bone on the concrete floors and break it open. Ever since then, she occasionally tries this at home on the wood floors just in case it will work. It is ineffective but loud. Her method is to throw the bone up in the air and then quickly dart out of the way of it landing",
   ":belle-belle: Belle occasionally enjoys chasing her tail but if she sees you looking at her while she does it she suddenly remembers a scrap of dignity and stops",
   ":belle-belle: In the summer, Belle's immediate post-walk routine is to jump in her pond for a quick cool-off! She'll bring duckweed and a surprising amount of water inside if not toweled off afterwards",
+  ":belle-belle: Belle knows the command `snorkle!` She'll crawl out at least far enough from under covers to stick her nose out because she's overheating",
+  ":belle-belle: Belle knows the command `come be friends` - she'll come snuggle or lay next to me!",
+  ":belle-belle: Belle once ate an entire bag of green candy melts and had green :poop: for a couple days",
   ":bubba: Bubba used to be scared of walking down the stairs, so Kate and Micah had to carry him downstairs each day.",
   ":bubba: Bubba’s favorite food is cottage cheese.",
   ":bubba: On walks, Bubba is easily intimidated — he’s typically scared of garbage cans and upturned paper grocery bags.",
   ":bubba: Bubba was originally going to be named “Tater Tot” (but Bubba was a better fit).",
+  ":cooper: Cooper will not eat peanuts or peanut butter.",
   ":cooper: Cooper's full name is Wilford J Cooperbottom.",
   ":cooper: Cooper only likes two toys: his laser and destroying whatever toy Cupcake had a minute ago.",
   ":cooper: One day Cooper was paying too much attention to another dog and he walked right into a parked car.",
   ":cooper: Every winter we have to rub dryer sheets on Cooper or else he gets shocked every time someone touches him. He gets very careful about touching anyone.",
   ":cooper: When we go to the dog park, Cooper likes to show off on the agility dog ramps. We never trained him to do the ramps, he just saw other dogs on them and he likes to one-up other dogs.",
   ":cooper: If you give :cooper: Cooper and :cupcake-dag: Cupcake a toy they will remember. When you come to visit months later they will go to the toybox and get it out to show you that they still have it.",
+  ":cooper: Cooper doesn't really understand \"staining the deck,\" so he stuck his face between two balusters and ended up with dark brown stripes on either side of his head. :disappointed:",
   ":cupcake-dag: Cupcake does not like hats. At all.",
   ":cupcake-dag: Cupcake's full name is Princess Petunia Cupcake.",
   ":cupcake-dag: Cupcake likes to nap on the back of the couch.",
   ":cupcake-dag: Cupcake can roll down car windows, but she won't do it for Cooper.",
+  ":cupcake-dag: Cupcake often sents on Carter's shoulders",
   ":fox-dag: Fox and Luna are 18F dog twins.",
   ":fox-dag: Fox's favorite food is smoked salmon. She's fancy like that.",
   ":fox-dag: Fox once barked at a picture of a dog in a magazine.",
@@ -104,6 +110,7 @@
   ":ruby-dag: Finding street food on the ground is one of my best talents. I found an _entire chicken thigh_ once. - Ruby",
     ":ruby-dag: Finding street food on the ground is one of my best talents. I found a quarter of a cheese sandwich once. - Ruby",
   ":scully: Scully doesn't chew human things she's not supposed to. But she does pick up socks that are left on the floor and move them to other locations.",
+  ":sidney-dag: Sidney really only plays with dogs whose ears stand up like hers. She is very suspicious of dogs who have floppy ears. It took me a few years to realize this and only became super evident when she would barely acknowledge the neighbors bloodhound.",
   ":wallace: Wallace is skeptical.",
   ":wallace: Wallace understands the word walk. So instead we use desserts and switch up every year. Last year it was marshmallow/mallow, this year it's kitkat.",
   {
@@ -131,7 +138,11 @@
     "emoji": ":winry-smile:",
     "text": "I like to be pushed around the carpet. You push me away and I jump up and come running back to your hands."
   },
-  
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I don't understand humans pointing with their hands, but I do understand pointing with your feet. But be warned, I'll look at you unhappily if there's no food where you're foot-pointing."
+  },
   {
     "name": "Leia",
     "emoji": ":leia:",
