@@ -6,6 +6,6 @@
     "test": "node tests.js"
   },
   "dependencies": {
-    "joi": "^14.3.1"
+    "joi": "^17.1.1"
   }
 }
