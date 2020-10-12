@@ -1,0 +1,15 @@
+name: JSON validation
+
+on: [push]
+
+jobs:
+  schema_validation:
+    name: JSON files are valid
+    runs-on: ubuntu-latest
+    container: node:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install validator
+        run: npm install joi@^17.2.1
+      - name: validate all documents
+        run: node ./.github/workflows/validate.js
