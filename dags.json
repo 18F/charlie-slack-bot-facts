@@ -52,6 +52,13 @@
   ":mahalo_goldeneye: Mahalo raced in Daytona Beach, Florida.",
   ":neko: Jessie dropped an apple once, and Neko grabbed it like a ball and went running around the house to show it off.",
   ":neko: Neko is part rottweiler, part pit bull, and part chow chow, which is the best and weirdest and most surprising thing.",
+  ":noodle-dag: Noodle often forgets to eat, but once a single kibble is forced in her mouth (sometimes twice) she remembers that she likes it and eats a whole bowl.",
+  ":noodle-dag: Noodle never turns around on hardwood floors — just forward and backward movement.",
+  ":noodle-dag: Noodle is afraid of her food, water, big boxes, trash cans, floor vents, vacuums, the dog park, baths, reflective things, lamp cords, tile and hardwood floors.",
+  ":noodle-dag: Noodle has two beds. At night, she starts on a flat pillow in front of the fan, and then in the middle of the night she switches to a little donut-shaped bed next to her human dad.",
+  ":noodle-dag: When Noodle farts, it scares her and she jumps forward and looks back, wondering what happened.",
+  ":noodle-dag: Noodle was originally named Peaches. She changed food groups.",
+  ":noodle-dag: Noodle is physicall an orzo, but lasagna at heart.",
   ":paloma: Paloma looks a little like Toto from The Wizard of Oz. She dislikes the car but loves riding in a bike basket, which inspires lots of \"TOTO!\" calls as she rides through town.",
   ":paloma: Paloma knows how to ring a bell on command. But, she never quite caught onto the fact that ringing the bell would alert her parents to take her outside, so now it's just a fun party trick.",
   ":paloma: According to Wisdom Panel, Paloma is a lhasapoouhuahua (lhasa apso / poodle / chihuahua mix). Because Paloma's mom is embarrassed to admit she DNA tested her dog, she tells people she's simply a \"terrier mix.\"",
@@ -114,11 +121,15 @@
   ":scully: Scully doesn't chew human things she's not supposed to. But she does pick up socks that are left on the floor and move them to other locations.",
   ":sidney-dag: Sidney really only plays with dogs whose ears stand up like hers. She is very suspicious of dogs who have floppy ears. It took me a few years to realize this and only became super evident when she would barely acknowledge the neighbors bloodhound.",
   ":wallace: Wallace is skeptical.",
-  ":wallace: Wallace understands the word walk. So instead we use desserts and switch up every year. Last year it was marshmallow/mallow, this year it's kitkat.",
   {
     "name": "Winry",
     "emoji": ":winry-smile:",
     "text": "I was afraid of going up or down stairs, so when Greg moved into a house that had them, I just slept in the living room by myself until I got over it."
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I love pickles. If you have a pickle, I will follow you around until you share. If you don't share, I'll just keep following you around."
   },
   {
     "name": "Winry",
@@ -138,7 +149,7 @@
   {
     "name": "Winry",
     "emoji": ":winry-smile:",
-    "text": "I like to be pushed around the carpet. You push me away and I jump up and come running back to your hands."
+    "text": "I used to like being pushed around the carpet. You'd push me away and I'd jump up and come running back to your hands. Now I just grab a toy and stare at you from a safe distance."
   },
   {
     "name": "Winry",
@@ -164,5 +175,10 @@
     "name": "Hugo",
     "emoji": ":hugo:",
     "text": "I'm terrified of people wearing masks or other things on their heads. I'm even a little spooked by hats."
+  },
+  {
+    "name": "Pluto",
+    "emoji": ":pluto-disney:",
+    "text": "I am a dog owned by a mouse whose best friend is a dog that walks upright."
   }
 ]
