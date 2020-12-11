@@ -1,7 +1,4 @@
 [
-  ":belle-dag: Belle loves sunbeams more than anything except belly rubs and bacon.",
-  ":belle-dag: Belle likes to have her nails painted. She holds out her paw to have it done, then wants to show everyone how they look when they're done.",
-  ":belle-dag: Belle can't see or hear all that well anymore. She relies on her well-honed sniffer.",
   ":belle-belle: Belle knows the command `off the bed, please` - the “please” is an integral part of that request and she doesn’t think you’re serious unless/until you include it",
   ":belle-belle: Belle has also realized that in many cases, when we ask her `off the bed, please` that she actually just needs to be off the _top_ of the covers so we can straighten them, and has the option to go under covers instead, so now she always tries that first",
   ":belle-belle: Belle knows the word `walk` in about six different languages before we just started slipping the letter `W` into conversation without any special intonation and divorcing it from the actual question to Belle of `wanna go outside!?` (duh, YES)",
@@ -23,19 +20,68 @@
   ":bubba: Bubba’s favorite food is cottage cheese.",
   ":bubba: On walks, Bubba is easily intimidated — he’s typically scared of garbage cans and upturned paper grocery bags.",
   ":bubba: Bubba was originally going to be named “Tater Tot” (but Bubba was a better fit).",
-  ":cooper: Cooper will not eat peanuts or peanut butter.",
-  ":cooper: Cooper's full name is Wilford J Cooperbottom.",
-  ":cooper: Cooper only likes two toys: his laser and destroying whatever toy Cupcake had a minute ago.",
-  ":cooper: One day Cooper was paying too much attention to another dog and he walked right into a parked car.",
-  ":cooper: Every winter we have to rub dryer sheets on Cooper or else he gets shocked every time someone touches him. He gets very careful about touching anyone.",
+  {
+    "name": "Cooper",
+    "emoji": ":cooper:",
+    "text": "I will not eat peanuts or peanut butter."
+  },
+  {
+    "name": "Cooper",
+    "emoji": ":cooper:",
+    "text": "My full name is Wilford J. Cooperbottom."
+  },
+  {
+    "name": "Cooper",
+    "emoji": ":cooper:",
+    "text": "I only like two toys: my laser and destroying whatever toy Cupcake had a minute ago."
+  },
+  {
+    "name": "Cooper",
+    "emoji": ":cooper:",
+    "text": "One day I was paying too much attention to another dog and walked right into a parked car. I pretended I didn't but people saw me."
+  },
+  {
+    "name": "Cooper",
+    "emoji": ":cooper:",
+    "text": "Every winter people have to rub dryer sheets on my back or else I get shocked every time someone touches me. I get very careful about touching anyone."
+  },
   ":cooper: When we go to the dog park, Cooper likes to show off on the agility dog ramps. We never trained him to do the ramps, he just saw other dogs on them and he likes to one-up other dogs.",
   ":cooper: If you give :cooper: Cooper and :cupcake-dag: Cupcake a toy they will remember. When you come to visit months later they will go to the toybox and get it out to show you that they still have it.",
   ":cooper: Cooper doesn't really understand \"staining the deck,\" so he stuck his face between two balusters and ended up with dark brown stripes on either side of his head. :disappointed:",
-  ":cupcake-dag: Cupcake does not like hats. At all.",
-  ":cupcake-dag: Cupcake's full name is Princess Petunia Cupcake.",
-  ":cupcake-dag: Cupcake likes to nap on the back of the couch.",
-  ":cupcake-dag: Cupcake can roll down car windows, but she won't do it for Cooper.",
-  ":cupcake-dag: Cupcake often sits on Carter's shoulders",
+  ":cooper: Cooper and :cupcake-dag: Cupcake very much like to bark at squirrels when we go on walks, but if you say “Not your squirrel” they will leave it alone and continue on their way.",
+  "Carter wanted to  name :cooper: Cooper and :cupcake-dag: Cupcake “Lugnut” and “Applesauce”.",
+  ":cooper: Cooper and :cupcake-dag: Cupcake do not understand that the neighbor’s plaster yard ornament bunny isn’t alive, and they’re very, very concerned about it.",
+  {
+    "name": "Cupcake",
+    "emoji": ":cupcake-dag:",
+    "text": "I do not like hats. At all."
+  },
+  {
+    "name": "Cupcake",
+    "emoji": ":cupcake-dag:",
+    "text": "My full name is Princess Petunia Cupcake. :princess::blossom::cupcake:"
+  },
+  {
+    "name": "Cupcake",
+    "emoji": ":cupcake-dag:",
+    "text": "I like to nap on the back of the couch."
+  },
+  {
+    "name": "Cupcake",
+    "emoji": ":cupcake-dag:",
+    "text": "I know how to roll down car windows, but I won't do it for :cooper: Cooper."
+  },
+  {
+    "name": "Cupcake",
+    "emoji": ":cupcake-dag:",
+    "text": "I often sit on Carter's shoulders."
+  },
+  {
+    "name": "Cupcake",
+    "emoji": ":cupcake-dag:",
+    "text": "I like to lick :cooper: Cooper's head and face."
+  },
+  ":cupcake-dag: Cupcake used to run wildly into the back yard every time she heard the word “squirrel”. Now her vocabulary has expanded and she will go running when she hears “wombat” or “marmoset”.",
   ":fox-dag: Fox and Luna are 18F dog twins.",
   ":fox-dag: Fox's favorite food is smoked salmon. She's fancy like that.",
   ":fox-dag: Fox once barked at a picture of a dog in a magazine.",
@@ -44,6 +90,7 @@
   ":hugo: Hugo can be convinced to crawl under a bed from one side to the other when amped up.",
   ":hugo: Hugo will do a somersault on command, but only in front of the bedroom closet where he originally learned the trick.",
   ":hugo: Hugo is terrified of humans wearing headbands with springy things on them, even if they are people he knows well.",
+  ":hugo: Hugo loves pistachios.",
   ":loki: Loki will give you the stare of death if you do not share an apple with him.",
   ":loki: Loki’s tongue is physically too large for his own mouth and just hangs out all day.",
   ":loki: Loki once ate an entire bag of Reese’s peanut butter cups, wrappers and all. He had sparkly :poop: for a week!",
@@ -65,7 +112,6 @@
   ":paloma: When Paloma meets someone new, she begs for a belly rub. If she knows you already, she also begs for a belly rub. It's her standard greeting (unless you're a delivery driver...).",
   ":pancho-dag: Pancho can read.",
   ":pancho-dag: Pancho is not color blind, he knows UPS brown.",
-  ":ted-dag: When Teddy was 3-months old, a bird flew into our house via an open window (while I was in a video meeting). Ted calmy plucked it out of the air in the kitchen and—with encouragement—released it outside to fly away unharmed.",
   {
     "name": "Pixie",
     "emoji": ":pixie:",
@@ -115,10 +161,11 @@
   ":ripley-dag: Thanks to the magic of static cling, Ripley often gets up from a nap and wanders around the house with her blanket stuck to her like a shawl or some kind of strange dog skirt.",
   ":ripley-dag: Although Ripley is in fact a dag, when she's particularly comfy she purrs kinda like a cat. Or maybe it's more like snoring, except she's awake.",
   ":ripley-dag: Ripley is not a particularly barky dog. One time, though, she barked and it sounded unnervingly like a human being saying \"Woof\".",
+  ":rueben-dag: Rueben loves snuggling shag carpets. May believe they are similarly shaggy friends.",
   ":ruby-dag: If there is snow on the ground and I'm outside, there is snow on my snoot. - Ruby",
   ":ruby-dag: I like to growl at carved pumpkins. :jack_o_lantern: - Ruby",
   ":ruby-dag: Finding street food on the ground is one of my best talents. I found an _entire chicken thigh_ once. - Ruby",
-    ":ruby-dag: Finding street food on the ground is one of my best talents. I found a quarter of a cheese sandwich once. - Ruby",
+  ":ruby-dag: Finding street food on the ground is one of my best talents. I found a quarter of a cheese sandwich once. - Ruby",
   ":scully: Scully doesn't chew human things she's not supposed to. But she does pick up socks that are left on the floor and move them to other locations.",
   ":sidney-dag: Sidney really only plays with dogs whose ears stand up like hers. She is very suspicious of dogs who have floppy ears. It took me a few years to realize this and only became super evident when she would barely acknowledge the neighbors bloodhound.",
   ":sidney-dag: Sidney did not make the cut as a police or service dog because she is afaid of trashcans, loud noises, things with wheels and not food motivated. Her paperwork said she would make a decent family pet.",
@@ -126,6 +173,8 @@
   ":sidney-dag: Sidney hates the whole vet experience. The drive, the parking lot, the waiting room, the vet and the check out process. There is usually howling, laying down and refusing to get up and other antics that are embarassing.",
   ":sidney-dag: Sidney is an expert chipmunk hunter.",
   ":sidney-dag: Sidney has broken her toe (several casts required), had Lyme Disease, had stitches twice and had a bone cyst. Mr. Vanek says she is expensive and needs a real job.",
+  ":ted-dag:One of Ted's nicknames is Eddie Tedder.",
+  ":ted-dag: When Teddy was 3-months old, a bird flew into our house via an open window (while I was in a video meeting). Ted calmy plucked it out of the air in the kitchen and—with encouragement—released it outside to fly away unharmed.",
   ":wallace: Wallace is skeptical.",
   {
     "name": "Winry",
@@ -171,6 +220,16 @@
     "name": "Winry",
     "emoji": ":winry-smile:",
     "text": "If someone is standing at the refrigerator when I'm walking through the kitchen, I will always pass between that person and the fridge."
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I am named after after Rockbell from the anime Fullmetal Alchemist."
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I don’t like getting dirty. Therefore, I do not dig."
   },
   {
     "name": "Leia",
