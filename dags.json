@@ -245,5 +245,10 @@
     "name": "Pluto",
     "emoji": ":pluto-disney:",
     "text": "I am a dog owned by a mouse whose best friend is a dog that walks upright."
-  }
+  },
+  {
+    "name": "Hudson",
+    "emoji": ":hudson:",
+    "text": "I dislike vacuums and brooms. In fact, all cleaning machines terrify me."
+  },
 ]
