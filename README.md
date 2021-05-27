@@ -7,7 +7,7 @@ bot, [Charlie](https://github.com/18F/18f-bot).
 
 These lists are JSON files that are read by Charlie. After creating a list
 here, you'll also need to update
-[Charlie's configuration](https://github.com/18F/18f-bot/blob/master/config/slack-random-response.json)
+[Charlie's configuration](https://github.com/18F/18f-bot/blob/main/config/slack-random-response.json)
 to read it. (See
 [the documentation about the random responder](https://github.com/18F/18f-bot/pull/155)
 for configuration information. If you're just updating a list Charlie already
@@ -50,7 +50,7 @@ included in parentheses.
 
 See a [short video demonstrating how to update the facts](https://i.imgur.com/Ky6JDtE.gifv).
 
-Changes must be submitted as pull requests, as the `master` branch is protected
+Changes must be submitted as pull requests, as the `main` branch is protected
 from direct edits. Pull requests must pass their tests before they can be
 merged - the tests just validate that the lists are correctly structured, so
 they should run pretty quickly.
