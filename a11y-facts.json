@@ -1,12 +1,17 @@
 [
   {
+    "name": "Welcome",
+    "emoji": ":a11y-ally:",
+    "text": "Hi! I'm Ally :wave:. My friends and I love to share tips with you. Let's build products and services that make all of us feel included."
+  },
+  {
     "name": "Screen reader Windows",
     "emoji": ":a11y-ally:",
     "text": "Narrator is the default screen reader for Windows. Enable it by going to Start > Settings > Ease of Access  and toggle Narrator On."
   },
   {
     "name": "Screen reader Mac",
-    "emoji": ":a11y-ace:",
+    "emoji": ":a11y-ally:",
     "text": "Turn on VoiceOver by pressing Command-F5 on your Mac keyboard."
   },
   ":a11y-ash: Do you need the role=”navigation” on a <nav> element? Nope. You don't need both! Check out ARIA Landmarks Examples as a reference.",
