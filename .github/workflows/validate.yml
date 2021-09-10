@@ -19,7 +19,7 @@ jobs:
   merge:
     name: turn on auto-merge
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == "pull_request" }}
+    if: ${{ github.event_name == 'pull_request' }}
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
