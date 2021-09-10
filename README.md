@@ -53,7 +53,8 @@ See a [short video demonstrating how to update the facts](https://i.imgur.com/Ky
 Changes must be submitted as pull requests, as the `main` branch is protected
 from direct edits. Pull requests must pass their tests before they can be
 merged - the tests just validate that the lists are correctly structured, so
-they should run pretty quickly.
+they should run pretty quickly. Once the tests pass, the pull request will merge
+itself.
 
 Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a
 pull request.
