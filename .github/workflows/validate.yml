@@ -13,3 +13,15 @@ jobs:
         run: npm install joi@^17.2.1
       - name: validate all documents
         run: node ./.github/workflows/validate.js
+
+  # Enable automatic merging on pull requests, so that once tests pass, the
+  # pull request will merge itself. No waiting. Let's simplify this thing!
+  merge:
+    name: turn on auto-merge
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == "pull_request" }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
+      - run: gh pr merge "$GITHUB_HEAD_REF" --auto --squash
