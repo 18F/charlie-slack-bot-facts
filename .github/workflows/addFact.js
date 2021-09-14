@@ -96,12 +96,19 @@ const cmd = (...cmd) =>
   await cmd(`git commit -m "automatically-added fact"`);
   await cmd(`git push origin ${branch}`);
 
-  await github.pulls.create({
+  await github.rest.pulls.create({
     base: "main",
     body: `This fact is being added automatically from the contents of #${issueNumber}`,
     head: branch,
     owner,
     repo,
     title: `Adding fact for #${issueNumber}`,
+  });
+
+  await github.rest.issues.update({
+    issue_number: issueNumber,
+    owner,
+    repo,
+    state: "closed",
   });
 })();
