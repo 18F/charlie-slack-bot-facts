@@ -1,0 +1,47 @@
+name: Add a new fact
+description: Create a new fact that Charlie will display
+title: Add a new fact
+body:
+  - type: dropdown
+    attributes:
+      label: What kind of fact are you adding?
+      options:
+        - "a11y-facts"
+        - "alan"
+        - "cats"
+        - "dags-alumni"
+        - "dags"
+        - "dolphins"
+        - "ed"
+        - "giraffes"
+        - "lovin-gov"
+        - "Minnesota"
+        - "randy"
+        - "scream"
+        - "Wisconsin"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Your new fact:"
+  - type: markdown
+    attributes:
+      value: |
+        Facts can be provided in one of three formats:
+
+        1. `A true statement`
+           In this format, the bot will display your fact and use its own
+           default display name and avatar.
+        2. `:avatar: A true statement`
+           With this format, the bot will use the emoji represented by
+           `:avatar:` as its avatar when it displays your fact. It will still
+           use its default display name. Be sure to set `:avatar:` to an emoji
+           that really exists! This is a great option for displaying facts about
+           pets.
+        3. `{ "name": "Display Name", "emoji": ":avatar:", "text": "A true statement" }`
+           With this format, the bot will display your fact, it will use the
+           emoji represented by `:avatar:` as its avatar, and it will use the
+           value "Display Name" for its name. Customize those accordingly! For
+           example, set the bot's name to your pet's name to make it look like
+           your pet is announcing a fact about themselves!
+
