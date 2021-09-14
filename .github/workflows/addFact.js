@@ -56,19 +56,22 @@ const cmd = (...cmd) =>
     data: { body },
   } = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
 
-  console.log(issueNumber);
-  console.log(body);
-
   const [, type, rawFact] = body.match(
     /^### What kind of fact are you adding\?\n\n([^\n]+)\n\n### Your new fact:\n\n(.*)$/im
-  ) ?? [, "", ""];
+  ) ?? [null, "", ""];
 
   const allFactsPath = path.join(__dirname, "..", "..", `${type}.json`);
 
   if (!type.length || !rawFact.length) {
+    console.log("### Issue doesn't match expected format");
+    console.log(`  Type: ${type}`);
+    console.log(`  Fact: ${rawFact}`);
+
     return;
   }
   if (!(await exists(allFactsPath))) {
+    console.log("### Issue refers to a type of fact I don't know");
+    console.log(`   Type: ${type}`);
     return;
   }
 
