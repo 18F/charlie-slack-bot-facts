@@ -5,6 +5,7 @@ on:
     types: [edited, opened]
 
 jobs:
+  add_fact:
     name: add a new fact if appropriate
     runs-on: ubuntu-latest
 
