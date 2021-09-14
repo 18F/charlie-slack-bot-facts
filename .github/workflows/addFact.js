@@ -27,11 +27,13 @@ const getFact = (rawFact) => {
 
 const cmd = (...cmd) =>
   new Promise((resolve, reject) => {
-    exec(...cmd, (err, stdout, stderr) => {
+    console.log(...cmd);
+    exec(...cmd, (err, stdout) => {
       if (err) {
         reject(new Error(err));
       } else {
-        resolve({ stdout, stderr });
+        console.log(stdout);
+        resolve();
       }
     });
   });
