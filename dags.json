@@ -139,5 +139,10 @@
     "text": "I dislike vacuums and brooms. In fact, all cleaning machines terrify me."
   },
   "Zhuzha's favorite snack is cucumber",
-  " { \"name\": \"Winry\", \"emoji\": \":winry-smile:\", \"text\": \"I will eat bits of dry tea leaves off the floor, but if you offer me a cup of tea, I will run away.\" }"
+  " { \"name\": \"Winry\", \"emoji\": \":winry-smile:\", \"text\": \"I will eat bits of dry tea leaves off the floor, but if you offer me a cup of tea, I will run away.\" }",
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "I like to get the neighbor dog in trouble by running up to the fence so he barks at me. I don't bark back."
+  }
 ]
