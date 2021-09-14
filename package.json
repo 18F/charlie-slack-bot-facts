@@ -5,5 +5,7 @@
   "devDependencies": {
     "prettier": "^2.4.0"
   },
-  "prettier": {}
+  "prettier": {
+    "printWidth": 85
+  }
 }

@@ -89,6 +89,8 @@ const cmd = (...cmd) =>
   });
 
   const branch = `add-fact/${issueNumber}`;
+  await cmd(`git config --local user.email "mgwalker@users.noreply.github.com"`);
+  await cmd(`git config --local user.name "automatic update"`);
   await cmd(`git checkout -b ${branch}`);
   await cmd(`git add ${allFactsPath}`);
   await cmd(`git commit -m "automatically-added fact"`);
