@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@octokit/rest": "^18.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.0"
+  },
+  "prettier": {}
+}
