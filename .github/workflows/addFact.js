@@ -40,7 +40,7 @@ const cmd = (...cmd) =>
 
 (async () => {
   const github = new Octokit({
-    token: process.env.GITHUB_TOKEN,
+    auth: process.env.GITHUB_TOKEN,
     userAgent: "18f bot facts",
   });
 
