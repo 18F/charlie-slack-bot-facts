@@ -56,10 +56,12 @@ const cmd = (...cmd) =>
     data: { body },
   } = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
 
-  const [, type, rawFact] =
-    body.match(
-      /^### What kind of fact are you adding\?\n\n([^\n]+)\n\n### Your new fact:\n\n(.*)$/im
-    ) ?? [];
+  console.log(issueNumber);
+  console.log(body);
+
+  const [, type, rawFact] = body.match(
+    /^### What kind of fact are you adding\?\n\n([^\n]+)\n\n### Your new fact:\n\n(.*)$/im
+  ) ?? [, "", ""];
 
   const allFactsPath = path.join(__dirname, "..", "..", `${type}.json`);
 
