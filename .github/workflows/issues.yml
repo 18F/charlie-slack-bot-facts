@@ -5,7 +5,7 @@ on:
     types: [edited, opened]
 
 jobs:
-    name: add a new fact, if appropriate
+    name: add a new fact if appropriate
     runs-on: ubuntu-latest
 
     steps:
@@ -19,3 +19,5 @@ jobs:
       - run: npm install --production
       - run: node addFact.js
         working-directory: ./.github/workflows
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

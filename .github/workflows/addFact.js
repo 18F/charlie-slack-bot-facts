@@ -3,10 +3,6 @@ const path = require("path");
 const { exec } = require("child_process");
 const { Octokit } = require("@octokit/rest");
 
-process.env.GITHUB_REF = "auto-fact";
-process.env.GITHUB_SHA = "0ee6b6521ee5061bee54cfb65cd8f00352a7eaa4";
-process.env.GITHUB_EVENT_PATH = "/Volumes/18f/18f-bot-facts/event.json";
-
 const exists = async (path) => {
   try {
     await fs.access(path);
@@ -41,7 +37,10 @@ const cmd = (...cmd) =>
   });
 
 (async () => {
-  const github = new Octokit({ userAgent: "18f bot facts" });
+  const github = new Octokit({
+    token: process.env.GITHUB_TOKEN,
+    userAgent: "18f bot facts",
+  });
 
   const {
     issue: { number: issueNumber },
@@ -80,6 +79,17 @@ const cmd = (...cmd) =>
     encoding: "utf-8",
   });
 
-  const o = await cmd("git status");
-  console.log(o);
+  const branch = `add-fact/${issueNumber}`;
+  await cmd(`git checkout -b ${branch}`);
+  await cmd(`git add ${allFactsPath}`);
+  await cmd(`git push origin ${branch}`);
+
+  await github.pulls.create({
+    base: "main",
+    body: `This fact is being added automatically from the contents of #${issueNumber}`,
+    head: branch,
+    owner,
+    repo,
+    title: `Adding fact for #${issueNumber}`,
+  });
 })();
