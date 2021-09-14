@@ -91,6 +91,7 @@ const cmd = (...cmd) =>
   const branch = `add-fact/${issueNumber}`;
   await cmd(`git checkout -b ${branch}`);
   await cmd(`git add ${allFactsPath}`);
+  await cmd(`git commit -m "automatically-added fact"`);
   await cmd(`git push origin ${branch}`);
 
   await github.pulls.create({
