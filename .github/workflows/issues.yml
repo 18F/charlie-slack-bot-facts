@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: mgwalker/action-is-in-org@90d0af2865ef9684e2beb30302c217524fc9f456
+        with:
+          orgs: 18f cloud-gov digital-analytics-program digitalgov presidential-innovation-fellows usagov uswds
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
         with:
           ref: main
