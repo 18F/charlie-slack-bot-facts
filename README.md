@@ -1,21 +1,21 @@
-# 18F-bot facts and responses
+# Charlie Slack bot facts and responses
 
-This repo holds facts and autoresponses that feed into 18F's internal slack
-bot, [Charlie](https://github.com/18F/18f-bot).
+This repo holds facts and autoresponses that feed into TTS's internal slack
+bot, [Charlie](https://github.com/18F/Charlie).
 
 ## How these lists work
 
 These lists are JSON files that are read by Charlie. After creating a list
 here, you'll also need to update
-[Charlie's configuration](https://github.com/18F/18f-bot/blob/main/config/slack-random-response.json)
+[Charlie's configuration](https://github.com/18F/Charlie/blob/main/config/slack-random-response.json)
 to read it. (See
-[the documentation about the random responder](https://github.com/18F/18f-bot/pull/155)
+[the documentation about the random responder](https://github.com/18F/Charlie/pull/155)
 for configuration information. If you're just updating a list Charlie already
 knows about, you can skip this step.)
 
 The JSON file must contain a single array. Each element of the array represents
 one possible response to the configured trigger. For example, `dags.json`
-represents all the responses for the "Dag Bot," or facts about 18F'ers dogs.
+represents all the responses for the "Dag Bot," or facts about TTSers' dogs.
 
 A response can either just be text or it can be a more complex object. If it
 is just text, you can specify an emoji to use as the bot's avatar by starting
