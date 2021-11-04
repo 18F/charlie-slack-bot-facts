@@ -61,7 +61,7 @@ const cmd = (...cmd) =>
   const [, type, rawFact] = body
     .replace(/\r/g, "")
     .match(
-      /^### What kind of fact are you adding\?\n\n([^\n]+)\n\n### Your new fact:\n\n(.*)$/im
+      /^### What kind of fact are you adding\?\n\n([^\n]+)\n\n### Your new fact:\n\n([\s\S]*)$/im
     ) ?? [null, "", ""];
 
   const allFactsPath = path.join(__dirname, "..", "..", `${type}.json`);
