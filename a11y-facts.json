@@ -1,21 +1,9 @@
 [
-  {
-    "name": "Welcome",
-    "emoji": ":a11y-ally:",
-    "text": "Hi! I'm Ally :wave:. My friends and I love to share tips with you. Let's build products and services that make all of us feel included."
-  },
-  {
-    "name": "Screen reader Windows",
-    "emoji": ":a11y-ally:",
-    "text": "Narrator is the default screen reader for Windows. Enable it by going to Start > Settings > Ease of Access and toggle Narrator On."
-  },
-  {
-    "name": "Screen reader Mac",
-    "emoji": ":a11y-ally:",
-    "text": "Turn on VoiceOver by pressing Command-F5 on your Mac keyboard."
-  },
-  ":a11y-ash: Do you need the role=”navigation” on a <nav> element? Nope. You don't need both! Check out ARIA Landmarks Examples as a reference.",
-  ":a11y-alex: Don't forget to test as you build! Integrate Pa11y as part of your development build pipeline.",
-  ":a11y-andy: Did you know you can put in a Microrequest for an Accessibility Audit of your project? Submit a request today!",
-  ":a11y-ace: Want to feel more confident about running an Accessibility audit? Take the 101 Manual Training course!"
+  "Hi! I'm Ally :wave:. My friends and I love to share tips with you. Let's build products and services that make all of us feel included.",
+  "Do you need the role=”navigation” on a <nav> element? Nope. You don't need both! Check out ARIA Landmarks Examples as a reference.",
+  "Don't forget to test as you build! Integrate Pa11y as part of your development build pipeline.",
+  "Did you know you can put in a Microrequest for an Accessibility Audit of your project? Submit a request today!",
+  "Want to feel more confident about running an Accessibility audit? Take the 101 Manual Training course!",
+  "Narrator is the default screen reader for Windows. Enable it by going to Start > Settings > Ease of Access and toggle Narrator On.",
+  "Turn on VoiceOver by pressing Command-F5 on your Mac keyboard."
 ]
