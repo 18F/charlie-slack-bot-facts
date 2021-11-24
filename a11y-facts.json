@@ -21,5 +21,4 @@
   ":a11y-ash: WCAG2.0 AA is the minimum standard for web accessibility at 18F.",
   ":a11y-alex: Watch out for keyboard traps! If you can navage into a part of a web page with the keyboard, you should be able to navigate out.",
   ":a11y-andy: Watch out for flashing items! Web pages should avoid anything that flashes more three times a second."
-
 ]
