@@ -1,9 +1,13 @@
 [
-  "Hi! I'm Ally :wave:. My friends and I love to share tips with you. Let's build products and services that make all of us feel included.",
-  "Do you need the role=”navigation” on a <nav> element? Nope. You don't need both! Check out ARIA Landmarks Examples as a reference.",
-  "Don't forget to test as you build! Integrate Pa11y as part of your development build pipeline.",
+  "Hi! I'm Ally :wave:. I love to share Accessibility tips and best practices with you. Let's build products and services that make all of us feel included.",
+  "Do you need the role=”navigation” on a <nav> element? Nope. You don't need both! Check out (<https://www.w3.org/TR/wai-aria-practices/examples/landmarks/navigation.html|ARIA Landmarks Examples>) reference.",
+  "Don't forget to test as you build! Integrate (<https://pa11y.org|Pa11y>) as part of your development build pipeline.",
   "Did you know you can put in a Microrequest for an Accessibility Audit of your project? Submit a request today!",
-  "Want to feel more confident about running an Accessibility audit? Take the 101 Manual Training course!",
-  "Narrator is the default screen reader for Windows. Enable it by going to Start > Settings > Ease of Access and toggle Narrator On.",
-  "Turn on VoiceOver by pressing Command-F5 on your Mac keyboard."
+  "Want to feel more confident about running an Accessibility audit? Signup for the 101 Manual Training course!",
+  "Narrator is the default screen reader for Windows. Enable it by going to Start > Settings > Ease of Access and toggle Narrator On. (<https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1|Complete guide to Narrator>)",
+  "Turn on VoiceOver by pressing Command-F5 on your Mac keyboard. (<https://www.apple.com/voiceover/info/guide/_1124.html|Learning VoiceOver Basics>)",
+  "December 3rd is International Day of Persons with Disabilities",
+  "The next Neurodiversity Celebration Week is March 21-27, 2022. (<https://www.neurodiversity-celebration-week.com|Learn more>)",
+  "White Cane Safety Day is a national observance in the United States, celebrated on October 15 of each year since 1964. The date is set aside to celebrate the achievements of people who are blind or visually impaired and the important symbol of blindness and tool of independence, :probing_cane: the white cane.",
+  "Don't forget to provide captions for your recorded meetings and videos. (<https://www.w3.org/WAI/perspective-videos/captions|Learn more>)."
 ]
