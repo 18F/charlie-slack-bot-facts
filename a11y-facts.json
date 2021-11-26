@@ -9,5 +9,9 @@
   "December 3rd is International Day of Persons with Disabilities",
   "The next Neurodiversity Celebration Week is March 21-27, 2022. (<https://www.neurodiversity-celebration-week.com|Learn more>)",
   "White Cane Safety Day is a national observance in the United States, celebrated on October 15 of each year since 1964. The date is set aside to celebrate the achievements of people who are blind or visually impaired and the important symbol of blindness and tool of independence, :probing_cane: the white cane.",
-  "Don't forget to provide captions for your recorded meetings and videos. (<https://www.w3.org/WAI/perspective-videos/captions|Learn more>)."
+  "Don't forget to provide captions for your recorded meetings and videos. (<https://www.w3.org/WAI/perspective-videos/captions|Learn more>).",
+  "Version 1.0 of WCAG focused heavily on HTML techniques. WCAG 2 takes a different approach, introducing four user-centered principles of accessibility, P.O.U.R (Perceivable, Operable, Understandable, and Robust). By emphasizing principles rather than techniques, developers should approach the process conceptually. (<https://webaim.org/articles/pour/|Constructing a POUR Website>)",
+  "Worldwide, there are approximately (<https://www.colourblindawareness.org/colour-blindness/|300 million people>) with colour blindness, almost the same number of people as the entire population of the USA! Use a color contrast analyzer while developing your designs. (<https://www.uxpin.com/studio/blog/evaluate-design-color-contrast|Best Ways to Evaluate Your Design for Color Contrast>)",
+  "Globally, at least 2.2 billion people have a near or distance vision impairment. (<https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment|WHO>)",
+  "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. (<https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html#text-equiv|WCAG 2.0 Guideline 1.1>)"
 ]
