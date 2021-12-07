@@ -14,5 +14,6 @@
   "Worldwide, there are approximately (<https://www.colourblindawareness.org/colour-blindness/|300 million people>) with colour blindness, almost the same number of people as the entire population of the USA! Use a color contrast analyzer while developing your designs. (<https://www.uxpin.com/studio/blog/evaluate-design-color-contrast|Best Ways to Evaluate Your Design for Color Contrast>)",
   "Globally, at least 2.2 billion people have a near or distance vision impairment. (<https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment|WHO>)",
   "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. (<https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html#text-equiv|WCAG 2.0 Guideline 1.1>)",
-  "Colors play a central role in data visualization. But what if your readers are color blind? Design charts with a color blind friendly palette and use patterns and textures. (<https://venngage.com/blog/color-blind-friendly-palette/#4|More tips>)"
+  "Colors play a central role in data visualization. But what if your readers are color blind? Design charts with a color blind friendly palette and use patterns and textures. (<https://venngage.com/blog/color-blind-friendly-palette/#4|More tips>)",
+  "Why are there ridges on the F and J buttons on a computer keyboard? They are designed to help users locate the correct keys without looking down. Accessibility benefits everyone!"
 ]
