@@ -1,24 +1,19 @@
 [
-  {
-    "name": "Welcome",
-    "emoji": ":a11y-ally:",
-    "text": "Hi! I'm Ally :wave:. My friends and I love to share tips with you. Let's build products and services that make all of us feel included."
-  },
-  {
-    "name": "Screen reader Windows",
-    "emoji": ":a11y-ally:",
-    "text": "Narrator is the default screen reader for Windows. Enable it by going to Start > Settings > Ease of Access and toggle Narrator On."
-  },
-  {
-    "name": "Screen reader Mac",
-    "emoji": ":a11y-ally:",
-    "text": "Turn on VoiceOver by pressing Command-F5 on your Mac keyboard."
-  },
-  ":a11y-ash: Do you need the role=”navigation” on a <nav> element? Nope. You don't need both! Check out ARIA Landmarks Examples as a reference.",
-  ":a11y-alex: Don't forget to test as you build! Integrate Pa11y as part of your development build pipeline.",
-  ":a11y-andy: Did you know you can put in a Microrequest for an Accessibility Audit of your project? Submit a request today!",
-  ":a11y-ace: Want to feel more confident about running an Accessibility audit? Take the 101 Manual Training course!",
-  ":a11y-ash: WCAG2.0 AA is the minimum standard for web accessibility at 18F.",
-  ":a11y-alex: Watch out for keyboard traps! If you can navage into a part of a web page with the keyboard, you should be able to navigate out.",
-  ":a11y-andy: Watch out for flashing items! Web pages should avoid anything that flashes more three times a second."
+  "Hi! I'm Ally :wave:. I love to share Accessibility tips and best practices with you. Let's build products and services that make all of us feel included.",
+  "Do you need the role=”navigation” on a <nav> element? Nope. You don't need both! Check out (<https://www.w3.org/TR/wai-aria-practices/examples/landmarks/navigation.html|ARIA Landmarks Examples>) reference.",
+  "Don't forget to test as you build! Integrate (<https://pa11y.org|Pa11y>) as part of your development build pipeline.",
+  "Did you know you can put in a Microrequest for an Accessibility Audit of your project? Submit a request today!",
+  "Want to feel more confident about running an Accessibility audit? Signup for the 101 Manual Training course!",
+  "Narrator is the default screen reader for Windows. Enable it by going to Start > Settings > Ease of Access and toggle Narrator On. (<https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1|Complete guide to Narrator>)",
+  "Turn on VoiceOver by pressing Command-F5 on your Mac keyboard. (<https://www.apple.com/voiceover/info/guide/_1124.html|Learning VoiceOver Basics>)",
+  "December 3rd is International Day of Persons with Disabilities",
+  "The next Neurodiversity Celebration Week is March 21-27, 2022. (<https://www.neurodiversity-celebration-week.com|Learn more>)",
+  "White Cane Safety Day is a national observance in the United States, celebrated on October 15 of each year since 1964. The date is set aside to celebrate the achievements of people who are blind or visually impaired and the important symbol of blindness and tool of independence, :probing_cane: the white cane.",
+  "Don't forget to provide captions for your recorded meetings and videos. (<https://www.w3.org/WAI/perspective-videos/captions|Learn more>).",
+  "Version 1.0 of WCAG focused heavily on HTML techniques. WCAG 2 takes a different approach, introducing four user-centered principles of accessibility, P.O.U.R (Perceivable, Operable, Understandable, and Robust). By emphasizing principles rather than techniques, developers should approach the process conceptually. (<https://webaim.org/articles/pour/|Constructing a POUR Website>)",
+  "Worldwide, there are approximately (<https://www.colourblindawareness.org/colour-blindness/|300 million people>) with colour blindness, almost the same number of people as the entire population of the USA! Use a color contrast analyzer while developing your designs. (<https://www.uxpin.com/studio/blog/evaluate-design-color-contrast|Best Ways to Evaluate Your Design for Color Contrast>)",
+  "Globally, at least 2.2 billion people have a near or distance vision impairment. (<https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment|WHO>)",
+  "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language. (<https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html#text-equiv|WCAG 2.0 Guideline 1.1>)",
+  "Colors play a central role in data visualization. But what if your readers are color blind? Design charts with a color blind friendly palette and use patterns and textures. (<https://venngage.com/blog/color-blind-friendly-palette/#4|More tips>)",
+  "Why are there ridges on the F and J buttons on a computer keyboard? They are designed to help users locate the correct keys without looking down. Accessibility benefits everyone!"
 ]
