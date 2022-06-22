@@ -182,5 +182,30 @@
   ":bubba: On walks, Bubba is easily intimidated — he’s typically scared of garbage cans and upturned paper grocery bags.",
   ":bubba: Bubba was originally going to be named “Tater Tot” (but Bubba was a better fit).",
   "Lyra believes pets are very important. If you stop petting her, she'll use her paw to remind you that she's sitting at your feet and desires more attention.",
-  "Lyra flew on an airplane once, when she was eight weeks old (and maybe 10 lbs). A week or so later, she had already outgrown her travel kennel."
+  "Lyra flew on an airplane once, when she was eight weeks old (and maybe 10 lbs). A week or so later, she had already outgrown her travel kennel.",
+  {
+    "name": "Argos",
+    "emoji": ":argos-dag:",
+    "text": "https://gsa-tts.slack.com/archives/C035CQWNA/p1655835424709899"
+  },
+  {
+    "name": "Maggie",
+    "text": "https://gsa-tts.slack.com/archives/C035CQWNA/p1655835528438159"
+  },
+  {
+    "name": "Dakota",
+    "emoji": ":dakota-dag:",
+    "text": "https://gsa-tts.slack.com/archives/C035CQWNA/p1655835781737389"
+  },
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "https://gsa-tts.slack.com/archives/C035CQWNA/p1655835862886579"
+  },
+  {
+    "name": "Ted",
+    "emoji": ":ted-dag:",
+    "text": "https://gsa-tts.slack.com/archives/C035CQWNA/p1655836985424459"
+  }
+
 ]
