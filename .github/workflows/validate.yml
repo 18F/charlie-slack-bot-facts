@@ -23,8 +23,10 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: mgwalker/action-is-in-orgs@90d0af2865ef9684e2beb30302c217524fc9f456
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
+      - uses: mgwalker/action-is-in-orgs@2.0
+        id: org-check
         with:
           orgs: 18f cloud-gov digital-analytics-program digitalgov presidential-innovation-fellows usagov uswds
-      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
-      - run: gh pr merge "$GITHUB_HEAD_REF" --auto --squash
+      - if: ${{ steps.org-check.in_orgs == "true" || github.actor == "dependabot[bot]" }}
+        run: gh pr merge "$GITHUB_HEAD_REF" --auto --squash
