@@ -28,5 +28,6 @@ jobs:
         id: org-check
         with:
           orgs: 18f cloud-gov digital-analytics-program digitalgov presidential-innovation-fellows usagov uswds
+      - run: echo "--${{ steps.org-check.in_orgs }}--"
       - if: ${{ steps.org-check.in_orgs == true || github.actor == 'dependabot[bot]' }}
         run: gh pr merge "$GITHUB_HEAD_REF" --auto --squash
