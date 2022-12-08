@@ -24,7 +24,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
-      - uses: mgwalker/action-is-in-orgs@v2.0
+      - uses: mgwalker/action-is-in-orgs@v2.0.1
         id: org-check
         with:
           orgs: 18f cloud-gov digital-analytics-program digitalgov presidential-innovation-fellows usagov uswds
