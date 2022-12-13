@@ -1,0 +1,57 @@
+name: sync pets mega-facts
+
+on: 
+  pull_request:
+    paths:
+      - birds.json
+      - cats.json
+      - dags.json
+
+jobs:
+  sync:
+    name: Sync the pets MEGA-FACTS!
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # Use the branch commit instead of the PR merge commit
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: smoosh them all together
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require("fs");
+            fs.writeFileSync(
+              "pets.json",
+              JSON.stringify(
+                ["birds.json", "cats.json", "dags.json"]
+                  .map((f) => fs.readFileSync(f, { encoding: "utf-8" }))
+                  .flatMap((v) => JSON.parse(v)),
+                null,
+                2
+              ),
+              { encoding: "utf-8" }
+            );
+      # Check if anything has changed. This will exit with 0 if there is nothing
+      # in the diff, or non-zero if anything has changed.
+      - name: checking for changes
+        run: if git diff --exit-code --quiet; then echo "::set-output name=changes::no"; else echo "::set-output name=changes::yes"; fi
+        id: diff
+      
+      # If anything changed, commit it.
+      - name: commit changes
+        if: steps.diff.outputs.changes == 'yes'
+        uses: EndBug/add-and-commit@050a66787244b10a4874a2a5f682130263edc192
+        with:
+          message: synchronize word lists
+      
+      - if: steps.diff.outputs.changes == 'yes'
+        uses: actions/github-script@9ac08808f993958e9de277fe43a64532a609130e
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Hi, @${context.actor}! I've updated the pets **MEGA FACTS** with your changes. Please pull the last commit before pushing any more changes.`
+            });
