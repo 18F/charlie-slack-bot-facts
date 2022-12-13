@@ -1,4 +1,49 @@
 [
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "When I preen my feathers, I sound like a deck of cards being shuffled."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "I follow my humans around the house. Not for any reason, I just like being near them while they do other things."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "Every evening, I roost on top of the office door. And every evening, my people put me in my actual bed (on top of my favorite lamp). I protest this by nodding my head and making a threatening cooing sound."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "If it's been a while since I've had a bath, I'll act extra curious around water until my people get the hint and fill a bowl for me to splash around in."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "After a bath, I shake myself once to dry off, then I lay down on the floor, usually in a corner or by a wall, for an hour or so."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "I struggle picking up most seeds, so I only eat sorghum. I don't eat human food and I really don't like bean burritos."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "I have a stretching routine! I stretch a leg and wing on one side, then the other, then I scrunch my shoulderblades together to lift my wings."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "When my people leave their office, I immediately jump on their keyboard. One time I sent a Teams message and scheduled a meeting. It was a productive day."
+  },
+  {
+    "name": "Primrose",
+    "emoji": ":primrose-bird:",
+    "text": "I, like all other birds, am a dinosaur. I'm not *descended* from dinosaurs, I *am* a dinosaur."
+  },
   ":cheetah: Cheetahs can meow and purr.",
   ":cat-muuaji: When locked in the bathroom (usually to keep him from escaping while we’re bringing in dishes from the back porch), Muuaji often uses the toilet. He has never been trained to do this.",
   "Kratos has caught and killed 2 birds without leaving the house.",
@@ -264,5 +309,10 @@
     "name": "Ted",
     "emoji": ":ted-dag:",
     "text": "https://gsa-tts.slack.com/archives/C035CQWNA/p1655836985424459"
+  },
+  {
+    "name": "Primrose (bird)",
+    "emoji": ":primrose-bird:",
+    "text": "If it's been a while since I've had a bath, I'll act extra curious around water until my people get the hint and fill a bowl for me to splash around in. (`bird fact` for more about Primrose.)"
   }
 ]
