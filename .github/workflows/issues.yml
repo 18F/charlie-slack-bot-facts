@@ -58,6 +58,7 @@ jobs:
           push: "origin add-fact/${{ github.event.issue.number }} --force"
       
       - name: open pull request
+        if: steps.diff.outputs.changes == 'yes'
         env:
           GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
