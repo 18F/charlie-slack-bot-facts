@@ -47,11 +47,11 @@ jobs:
         if: steps.diff.outputs.changes == 'yes'
         uses: EndBug/add-and-commit@v9
         with:
-          message: "adding fact; closes ${{ github.event.issue.number }}"
+          message: "adding fact; closes #${{ github.event.issue.number }}"
           # Force push because if this issue has been edited, then there's
           # already a branch with this name, but it refers to the prior edit so
           # we'll just... throw it away.
-          push: "origin add-fact/${{ github.event.issue.number }} --force"
+          push: "origin main:add-fact/${{ github.event.issue.number }} --force"
       
       - name: open pull request
         env:
