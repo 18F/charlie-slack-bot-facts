@@ -221,5 +221,10 @@
   },
   "Grape love eating seaweed",
   "Berry once got high one time eating my neighbors compost",
-  "Koda is a golden retriever who doesn't like water\n"
+  "Koda is a golden retriever who doesn't like water\n",
+  {
+    "name": "Winry",
+    "emoji": ":winry-smile:",
+    "text": "When riding the elevator, I somehow know when we're at the right floor. I'll sit patiently when we stop anywhere else, but as soon as we get to the right floor, I'll stand in front of the door and wait for it to open."
+  }
 ]
