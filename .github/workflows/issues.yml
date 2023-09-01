@@ -23,6 +23,7 @@ jobs:
 
       - uses: actions/checkout@v3
         with:
+          token: ${{ steps.app_token.outputs.token }}
           ref: main
 
       - uses: actions/setup-node@v3
@@ -30,9 +31,34 @@ jobs:
           node-version: 16
           cache: npm
 
-      - run: npm install --production
+      - name: install dependencies
+        run: npm install --production
 
-      - run: node addFact.js
+      - name: update files with new fact
+        run: node addFact.js
         working-directory: ./.github/workflows
+
+      - name: check for changes
+        run: if git diff --exit-code --quiet; then echo "::set-output name=changes::no"; else echo "::set-output name=changes::yes"; fi
+        id: diff
+
+        # If anything changed, commit it.
+      - name: commit changes
+        if: steps.diff.outputs.changes == 'yes'
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "adding fact; closes ${{ github.event.issue.number }}"
+          # Force push because if this issue has been edited, then there's
+          # already a branch with this name, but it refers to the prior edit so
+          # we'll just... throw it away.
+          push: "origin add-fact/${{ github.event.issue.number }} --force"
+      
+      - name: open pull request
         env:
-          GITHUB_TOKEN: ${{ steps.app_token.outputs.token }}
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          BRANCH="add-fact/${{ github.event.issue.number }}"
+          gh pr create \
+            --title "Adding fact for $BRANCH" \
+            --body "This fact is being added automatically from the contents of #${{ github.event.issue.number }}. Closes #${{ github.event.issue.number }}."
+          gh pr merge $BRANCH --auto --squash
