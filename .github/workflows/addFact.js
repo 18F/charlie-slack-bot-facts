@@ -88,27 +88,27 @@ const cmd = (...cmd) =>
     encoding: "utf-8",
   });
 
-  const branch = `add-fact/${issueNumber}`;
-  await cmd(`git config --local user.email "mgwalker@users.noreply.github.com"`);
-  await cmd(`git config --local user.name "automatic update"`);
-  await cmd(`git checkout -b ${branch}`);
-  await cmd(`git add ${allFactsPath}`);
-  await cmd(`git commit -m "automatically-added fact"`);
-  await cmd(`git push origin ${branch}`);
+  // const branch = `add-fact/${issueNumber}`;
+  // await cmd(`git config --local user.email "mgwalker@users.noreply.github.com"`);
+  // await cmd(`git config --local user.name "automatic update"`);
+  // await cmd(`git checkout -b ${branch}`);
+  // await cmd(`git add ${allFactsPath}`);
+  // await cmd(`git commit -m "automatically-added fact"`);
+  // await cmd(`git push origin ${branch}`);
 
-  await github.rest.pulls.create({
-    base: "main",
-    body: `This fact is being added automatically from the contents of #${issueNumber}`,
-    head: branch,
-    owner,
-    repo,
-    title: `Adding fact for #${issueNumber}`,
-  });
+  // await github.rest.pulls.create({
+  //   base: "main",
+  //   body: `This fact is being added automatically from the contents of #${issueNumber}`,
+  //   head: branch,
+  //   owner,
+  //   repo,
+  //   title: `Adding fact for #${issueNumber}`,
+  // });
 
-  await github.rest.issues.update({
-    issue_number: issueNumber,
-    owner,
-    repo,
-    state: "closed",
-  });
+  // await github.rest.issues.update({
+  //   issue_number: issueNumber,
+  //   owner,
+  //   repo,
+  //   state: "closed",
+  // });
 })();
