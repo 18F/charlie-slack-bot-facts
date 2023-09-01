@@ -43,6 +43,10 @@ jobs:
         id: diff
 
         # If anything changed, commit it.
+      - name: change branches
+        if: steps.diff.outputs.changes == 'yes'
+        run: git checkout -b add-fact/${{ github.event.issue.number }}
+
       - name: commit changes
         if: steps.diff.outputs.changes == 'yes'
         uses: EndBug/add-and-commit@v9
@@ -51,14 +55,15 @@ jobs:
           # Force push because if this issue has been edited, then there's
           # already a branch with this name, but it refers to the prior edit so
           # we'll just... throw it away.
-          push: "origin main:add-fact/${{ github.event.issue.number }} --force"
+          push: "origin add-fact/${{ github.event.issue.number }} --force"
       
       - name: open pull request
         env:
           GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
+          NUM=${{ github.event.issue.number }}
           BRANCH="add-fact/${{ github.event.issue.number }}"
           gh pr create \
-            --title "Adding fact for $BRANCH" \
-            --body "This fact is being added automatically from the contents of #${{ github.event.issue.number }}. Closes #${{ github.event.issue.number }}."
+            --title "Adding fact for #$NUM" \
+            --body "This fact is being added automatically from the contents of #$NUM. Closes #$NUM."
           gh pr merge $BRANCH --auto --squash
