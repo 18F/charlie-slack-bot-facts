@@ -4,6 +4,9 @@ on:
   issues:
     types: [edited, opened]
 
+permissions:
+  contents: read
+
 jobs:
   add_fact:
     name: add a new fact if appropriate

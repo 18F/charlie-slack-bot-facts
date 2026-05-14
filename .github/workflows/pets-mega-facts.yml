@@ -7,6 +7,10 @@ on:
       - cats.json
       - dags.json
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   sync:
     name: Sync the pets MEGA-FACTS!
